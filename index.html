@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/css/styles.css" rel="stylesheet">
+    <title>Portfolio Main</title>
+</head>
+<body>
+    <!-- OVERLAY -->
+    <div className="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Resume/CV</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="https://gitlab.com/antily155031" class="nav__link"><ion-icon name="logo-gitlab" class="home__social-icon"></ion-icon></a></li>
+                    <li><a href="https://github.com/Antily15503" class="nav__link"><ion-icon name="logo-github" class="home__social-icon"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/ethan-li-1b767a261/" class="nav__link"><ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon></a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="l-main bd-grid">
+        <div class="home">
+            <!-- HERO -->
+            <div class="home__information">
+                <span class="home__pressent anime-text">Hello! My name is</span>
+                <h1 class="home__title anime-text">Ethan Li</h1>
+                <span class="home__skill anime-text">Software & Computer Engineer</span>
+                <p class="">At the University of Wisconsin-Madison</p>
+                
+                <div>
+                    <a href="#" class="home__button anime-text">Contact Me!</a>
+                </div>
+            </div>
+            <!-- NAVBAR -->
+            <nav class="navBottom">
+                <button onClick="" class="navBottom__a">Labwork</a>
+                <button onClick="" class="navBottom__a">Projects</a>
+                <button onClick="" class="navBottom__a">Java</a>
+                <button onClick="" class="navBottom__a">C</a>
+                <button onClick="" class="navBottom__a">Verilog</a>
+                <button onClick="" class="navBottom__a">WebDev</a>
+                <button onClick="" class="navBottom__a">Hackathons</a>
+            </nav>
+
+            <div class="home__img">
+                <img src="assets/img/img.jpg" alt="">
+            </div>
+        </div>
+        
+    </main>
+
+    
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+    <!-- MAIN -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
